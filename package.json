@@ -1,0 +1,18 @@
+{
+  "name": "microfrontend-presentation",
+  "version": "1.0.0",
+  "description": "Microfrontend Architecture Presentation with Slidev",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.0"
+  }
+}
